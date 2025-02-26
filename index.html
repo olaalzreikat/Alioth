@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assests/img/favicon.png" type="image/x-icon">
+
+  <!--=============== BOXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  <!--=============== SWIPER CSS ===============--> 
+  <link rel="stylesheet" href="assests/css/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============--> 
+  <link rel="stylesheet" href="assests/css/styles.css">
+
+  <title>Responsive Halloween Website</title>
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <a href="#" class="nav__logo" style="font-size: 20px;">
+      <img src="assests/img/logo.png" alt="" class="nav__logo-img">
+      Stellar Dreams
+    </a>
+    <nav class="nav container">
+
+   
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#distance" class="nav__link">Distance/General info</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#trick" class="nav__link">HR Diagram/Star's Movement</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#life" class="nav__link">Life cycle</a>
+          </li>
+
+          <a href="#footer" class="button button--ghost">Customer</a>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x'></i>
+        </div>
+
+        <img src="assests/img/nav-img.png" alt="" class="nav__img">
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home container" id="home">
+      <div class="swiper home-swiper">
+        <div class="swiper-wrapper">
+          <!-- HOME SLIDER 1 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assests/img/home1-img.png" alt="" class="home__img">
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">A beautiful star</h4>
+                  <span class="home__details-subtitle">Living in the constellation Ursa Major</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle"><br>Current Star for Sale:</h3>
+                <h1 class="home__title">Alioth</h1>
+                <p class="home__description">Hello dear customers, Welcome to Stellar Dreams - Your Premier Destination for Buying Stars</p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Buy Now</a>
+                  <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- HOME SLIDER 2 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assests/img/home2-img.png" alt="" class="home__img">
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Adino & Grahami</h4>
+                  <span class="home__details-subtitle">No words can describe them</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#2 top Best duo</h3>
+                <h1 class="home__title">BRING BACK <br> MY COTTON <br> CANDY</h1>
+                <p class="home__description">Adino steals cotton candy from his brother and eats them all in one bite, a hungry beast. Grahami can no longer contain his anger towards Adino.</p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Book Now</a>
+                  <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- HOME SLIDER 3 -->
+          <section class="swiper-slide">
+            <div class="home__content grid">
+              <div class="home__group">
+                <img src="assests/img/home3-img.png" alt="" class="home__img">
+                <div class="home__indicator"></div>
+
+                <div class="home__details-img">
+                  <h4 class="home__details-title">Captain Sem</h4>
+                  <span class="home__details-subtitle">Veteran Spooky Ghost</span>
+                </div>
+              </div>
+
+              <div class="home__data">
+                <h3 class="home__subtitle">#3 Top Scariest  Ghost</h3>
+                <h1 class="home__title">RESPAWN <br> THE SPOOKY <br> SKULL</h1>
+                <p class="home__description">In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind.</p>
+
+                <div class="home__buttons">
+                  <a href="#" class="button">Book Now</a>
+                  <a href="#" class="button--link button--flex">Track Record <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+<!--==================== CATEGORY ====================-->
+<section class="section category" style="color: white; padding: 40px; text-align: center; font-family: Arial, sans-serif;" id="distance">
+  <h2 class="section__title" style="font-size: 36px; font-weight: bold; text-transform: uppercase;">Distance</h2>
+  
+  <div class="category__container" style="position: relative; width: 90%; margin: auto; border-top: 2px solid white; padding-top: 30px; display: flex; justify-content: space-between; align-items: center;">
+      <div style="position: absolute; top: -10px; left: 0; width: 100%; height: 2px; background-image: url('assests/img/grid.png'); background-repeat: repeat-x;"></div>
+      
+      <div style="display: flex; gap: 20px;">
+          <!-- Earth -->
+          <div class="category__data" style="text-align: center; position: relative;">
+              <img src="assests/img/category1-img.png" alt="Earth" class="category__img" style="width: 40px;">
+              <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">EARTH</h3>
+              <p class="category__description" style="font-size: 14px; margin: 0;">0 LYS</p>
+          </div>
+  
+          <!-- Sun -->
+          <div class="category__data" style="text-align: center; position: relative;">
+              <img src="assests/img/category2-img.png" alt="Sun" class="category__img" style="width: 40px;">
+              <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">SUN</h3>
+              <p class="category__description" style="font-size: 14px; margin: 0;">1 LYS</p>
+          </div>
+          
+          <!-- Proxima Centauri -->
+          <div class="category__data" style="text-align: center;">
+              <img src="assests/img/category3-img.png" alt="Proxima Centauri" class="category__img" style="width: 40px;">
+              <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">PROXIMA CENTAURI</h3>
+              <p class="category__description" style="font-size: 14px; margin: 0;">4.24 LYS</p>
+          </div>
+      </div>
+      
+      <!-- Alioth -->
+      <div class="category__data" style="text-align: center;">
+          <img src="assests/img/home1-img.png" alt="Alioth" class="category__img" style="width: 50px;">
+          <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">ALIOTH</h3>
+          <p class="category__description" style="font-size: 14px; margin: 0;">82.55 LYS</p>
+      </div>
+      
+      <!-- Bip -->
+      <div class="category__data" style="text-align: center;">
+          <img src="assests/img/category4-img.png" alt="Bip" class="category__img" style="width: 35px;">
+          <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">BIP</h3>
+          <p class="category__description" style="font-size: 14px; margin: 0;">203 LYS</p>
+      </div>
+      
+      <!-- Pleiades -->
+      <div class="category__data" style="text-align: center;">
+          <img src="assests/img/category5-img.png" alt="Pleiades Star Cluster" class="category__img" style="width: 100px; height:100px;">
+          <h3 class="category__title" style="font-size: 14px; font-weight: bold; margin-top: 5px;">PLEIADES STAR CLUSTER</h3>
+          <p class="category__description" style="font-size: 14px; margin: 0;">444 LYS</p>
+      </div>
+  </div>
+  <br/>
+  <br/>
+  <!-- General Info -->
+  <h3 class="section__title" style="font-size: 36px; font-weight: bold; text-transform: uppercase;">General Information</h3>
+  <div class="general-info" style="margin-top: 40px; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+      <div style="background-color: #FF66B2; padding: 15px 25px; border-radius: 25px; font-size: 16px; font-weight: bold;">NAME: ALIOTH (HOT AND BRIGHT)</div>
+      <div style="background-color: #FF66B2; padding: 15px 25px; border-radius: 25px; font-size: 16px; font-weight: bold;">MASS: 1.5-2</div>
+      <div style="background-color: #FF66B2; padding: 15px 25px; border-radius: 25px; font-size: 16px; font-weight: bold;">TEMPERATURE: 7,500 - 10,000 K</div>
+      <div style="background-color: #FF66B2; padding: 15px 25px; border-radius: 25px; font-size: 16px; font-weight: bold;">COLOR: WHITE</div>
+      <div style="background-color: #FF66B2; padding: 15px 25px; border-radius: 25px; font-size: 16px; font-weight: bold;">TYPE: A (HIGH-MASS STAR)</div>
+  </div>
+</section>
+
+
+    <!--==================== TRICK OR TREAT ====================-->
+    <section class="section trick" style=" color: white; padding: 40px; text-align: center; font-family: Arial, sans-serif;" id="trick">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap;">
+        <div>
+          <h2 class="section__title" style="font-size: 36px; font-weight: bold; text-transform: uppercase;">HR DIAGRAM</h2>
+        <img src="assests/img/trick-treat1-img.png" alt="HR Diagram" style="max-width: 450px; border: 2px solid white;">
+        <span style="display: flex; align-items: center;"><span style="color: #FFD700; font-size: 30px;">&#9733;</span> NEW STAR</span>
+        <span style="display: flex; align-items: center;"><span style="color: #C0C0C0; font-size: 30px;">&#9733;</span> OLD STAR</span>
+        </div>
+        <div style="text-align: left; max-width: 450px;">
+          <h2 class="section__title" style="font-size: 36px; font-weight: bold; text-transform: uppercase;">STAR'S MOVEMENT</h2>
+          <img src="assests/img/spectrum-1.png" alt="Spectrum 1" style="width: 100%; margin-bottom: 10px;">
+          <img src="assests/img/spectrum-2.png" alt="Spectrum 2" style="width: 100%;">
+          <div style="margin-top: 20px; border: 2px solid #FFD700; padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">
+            THE STAR'S WAVELENGTH IS GETTING SHORTER WHILE ITS FREQUENCY IS GETTING HIGHER
+          </div>
+          <div style="margin-top: 10px; border: 2px solid #FFD700; padding: 10px; text-align: center; font-size: 14px; font-weight: bold;">
+            THE STAR WILL BE MOVING TOWARDS YOU
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== NEW ARRIVALS ====================-->
+    <div class="lifecycle-container" id="life">
+    <h2 class="title">STAR’S LIFE CYCLE</h2>
+    
+    <div class="lifecycle-grid">
+        <div class="phase">
+            <img src="assests/img/new1-img.png" alt="Stellar Nebula">
+            <h3>STELLAR NEBULA</h3>
+            <p>A CLOUD OF GAS AND DUST WHERE NEW STARS ARE BORN. FIRST STAGE OF EVERY STARS LIFE</p>
+        </div>
+
+        <div class="phase">
+            <p class="small-label">MUST REACH 27 MILLION DEGREES</p>
+            <img src="assests/img/new2-img.png" alt="High-Mass Star">
+            <h3>HIGH-MASS STAR</h3>
+            <p>2ND PHASE IN A STAR'S LIFE CYCLE THAT BECOMES A STAR AFTER BEING A STELLAR NEBULA AND BEFORE TURNING INTO A RED GIANT OR A SUPER RED GIANT</p>
+        </div>
+
+        <div class="phase">
+            <p class="small-label">RAN OUT OF HYDROGEN, BEGINS FUSING HELIUM</p>
+            <img src="assests/img/new3-img.png" alt="Super Red Giant" class="highlight">
+            <h3>SUPER RED GIANT</h3>
+            <p>3RD PHASE IN A STAR'S LIFE CYCLE - AFTER IT'S DONE BEING A STAR AND BEFORE IT TURNS INTO A PLANETARY NEBULA/SUPERNOVA. A STAR'S MASS WILL DETERMINE IF IT BECOMES A RED GIANT OR A SUPER.</p>
+        </div>
+
+        <div class="phase">
+            <p class="small-label">NUCLEAR FUSION STOPS!</p>
+            <img src="assests/img/new4-img.png" alt="Supernova">
+            <h3>SUPERNOVA</h3>
+            <p>WHEN A STAR HAS EXHAUSTED ITS FUEL AND EXPLODES OUTWARDS DUE TO IMMENSE PRESSURE.</p>
+        </div>
+
+        <div class="phase">
+            <img src="assests/img/new5-img.png" alt="Black Hole">
+            <h3>BLACK HOLE</h3>
+            <p>WHEN A MASSIVE STAR HAS EXHAUSTED ITS FUEL AND EXPLODES OUTWARDS DUE TO IMMENSE PRESSURE, ITS CORE COLLAPSES SO COMPLETELY THAT IT FORMS A BLACK HOLE</p>
+        </div>
+    </div>
+</div>
+
+  
+
+    <!--==================== OUR NEWSLETTER ====================-->
+    <section class="customer-section" id="footer">
+      <h2 class="section-title">CUSTOMER SECTION</h2>
+  
+      <p class="customer-description">
+          THE BIPPIES ARE A TINY SPECIES FROM BIM IN THE BIP SYSTEM. THEIR CURRENT STAR, BIMMY, IS COOL AND DIM 
+          AND IS ABOUT TO DIE NEXT MONTH. THEY NEED A HOT AND BRIGHT STAR TO MAINTAIN THEIR BODY HEAT.
+      </p>
+  
+      <div class="customer-features">
+          <div class="feature">
+              <h3>ENDLESS WARMTH & COMFORT - NO MORE FREEZING UNDER BIMMY’S DIM LIGHT. 
+              ALIOTH’S HEAT WILL KEEP YOUR CIVILIZATION WARM AND THRIVING.</h3>
+          </div>
+          <div class="feature">
+              <h3>THE COLOR MATCHES THE HOMES OF THE BIPPIES AND WILL MAKE THE CIVILIANS HAPPY!</h3>
+          </div>
+          <div class="feature">
+              <h3>ALIOTH’S BRIGHTNESS COULD MAKE THE BIP SYSTEM MORE NOTICEABLE TO UNWANTED INVADERS.</h3>
+          </div>
+      </div>
+  
+      <div class="security-message">
+          <p>TO ADDRESS THE RISK OF ALIOTH ATTRACTING UNWANTED ATTENTION, I WILL CREATE A HIGH-TECH 
+          SECURITY WEBSITE FOR THE BIPPIES</p>
+      </div>
+  
+      <p class="final-offer">
+          WITH ALL THINGS CONSIDERED, MY FINAL OFFER FOR ALIOTH IS <span class="highlight">1,000,000 BIMBAPS</span>. 
+          THIS INCLUDES NOT JUST THE STAR, BUT ALSO A CUSTOM-BUILT SECURITY WEBSITE TO KEEP THE BIP SYSTEM SAFE AND THRIVING UNDER ALIOTH’S LIGHT.
+      </p>
+    </section>
+  
+
+  <!--==================== FOOTER ====================-->
+  <!-- <footer class="footer section">
+    <div class="footer__container container grid">
+      <div class="footer__content">
+        <a href="#" class="footer__logo">
+          <img src="assests/img/logo.png" alt="" class="footer__logo-img">
+          Halloween
+        </a>
+
+        <p class="footer__description">Enjoy the scariest night <br> of your life.</p>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-facebook'></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-instagram-alt' ></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+            <i class='bx bxl-twitter' ></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">About</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Features</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">News</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Our Services</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Discounts</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Shipping mode</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Our Company</h3>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#" class="footer__link">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">About us</a>
+          </li>
+          <li>
+            <a href="#" class="footer__link">Our mision</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <span class="footer__copy">&#169; Bedimcode. All rigths reserved</span>
+
+    <img src="assests/img/footer1-img.png" alt="" class="footer__img-one">
+    <img src="assests/img/footer2-img.png" alt="" class="footer__img-two">
+  </footer> -->
+
+  <!--=============== SCROLL UP ===============-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+  </a>
+
+  <!--=============== SCROLL REVEAL ===============-->
+  <!-- <script src="assests/js/scrollreveal.min.js"></script> -->
+
+  <!--=============== SWIPER JS ===============-->
+  <!-- <script src="assests/js/swiper-bundle.min.js"></script> -->
+
+  <!--=============== MAIN JS ===============-->
+  <!-- <script src="assests/js/main.js"></script> -->
+</body>
+</html>
